@@ -7,7 +7,13 @@
     <title>Halaman <?= $data['judul']?></title>
 </head>
 <body>
+</nav>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="<?= BASE_URL; ?>"><i><b>DafaOriendra</b><span>Website</i></span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
   
   <div class="collapse navbar-collapse" id="navbarNav" style="
   margin-left:8%;
@@ -20,7 +26,7 @@
   </button>
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="<?= BASE_URL; ?>/blog">Kompetensi Keahlian <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="<?= BASE_URL; ?>/jurusan">Kompetensi Keahlian <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="<?= BASE_URL; ?>/guru">Data Guru</a>
